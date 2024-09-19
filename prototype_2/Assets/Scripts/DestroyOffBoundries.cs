@@ -21,6 +21,7 @@ public class DestroyOffBoundries : MonoBehaviour
             Destroy(gameObject); // destroys current object when out of bounds
         }
         else if (transform.position.z < lowerBound){
+            Debug.Log("Game Over!");
             Destroy(gameObject);
         }
     }
