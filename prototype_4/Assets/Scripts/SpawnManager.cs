@@ -46,3 +46,4 @@ public class SpawnManager : MonoBehaviour
         }
     }
 }
+//lorran
