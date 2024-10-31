@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-    public GameObject gameManagerObject;
+    //public GameObject gameManagerObject;
     private GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = gameManagerObject.GetComponent<GameManager>();
+        gameManager = GameObject.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
